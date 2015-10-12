@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Core_Data_persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line 1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rF-FV-amJ">
+                                <rect key="frame" x="16" y="32" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="KPZ-dc-sOM"/>
+                                    <constraint firstAttribute="width" constant="52" id="odf-vG-W1o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line 2:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8j-Ev-Pgj">
+                                <rect key="frame" x="16" y="70" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="bsd-l2-B9Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line 4:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEt-9y-llY">
+                                <rect key="frame" x="16" y="146" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="SpZ-tx-KDF"/>
+                                    <constraint firstAttribute="width" constant="52" id="h1f-cB-kKO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8MG-c2-lqy">
+                                <rect key="frame" x="76" y="28" width="508" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x3X-Ai-zj3">
+                                <rect key="frame" x="75" y="66" width="508" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cn0-j6-Wut">
+                                <rect key="frame" x="76" y="104" width="508" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eoP-sX-zHq">
+                                <rect key="frame" x="76" y="142" width="508" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Line 3:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmC-wj-j8Y">
+                                <rect key="frame" x="16" y="108" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="JRA-iZ-usz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="Kpe-bf-oph"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x3X-Ai-zj3" firstAttribute="baseline" secondItem="c8j-Ev-Pgj" secondAttribute="baseline" constant="-1" id="0ZC-Wm-mMo"/>
+                            <constraint firstItem="8MG-c2-lqy" firstAttribute="leading" secondItem="0rF-FV-amJ" secondAttribute="trailing" constant="8" id="1aO-nH-Gwt"/>
+                            <constraint firstItem="0rF-FV-amJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4NO-zA-TXT"/>
+                            <constraint firstItem="OmC-wj-j8Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6Rd-vg-vWK"/>
+                            <constraint firstItem="c8j-Ev-Pgj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6Rl-hn-UwA"/>
+                            <constraint firstItem="cn0-j6-Wut" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="84" id="CC6-zi-0wt"/>
+                            <constraint firstItem="x3X-Ai-zj3" firstAttribute="leading" secondItem="c8j-Ev-Pgj" secondAttribute="trailing" constant="7" id="FK0-cS-xLy"/>
+                            <constraint firstItem="cn0-j6-Wut" firstAttribute="baseline" secondItem="OmC-wj-j8Y" secondAttribute="baseline" constant="-1" id="FRV-St-7e4"/>
+                            <constraint firstItem="MEt-9y-llY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KCA-CX-2Gh"/>
+                            <constraint firstItem="8MG-c2-lqy" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KCy-ls-5gi"/>
+                            <constraint firstItem="x3X-Ai-zj3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="KN0-Of-uPa"/>
+                            <constraint firstItem="MEt-9y-llY" firstAttribute="baseline" secondItem="eoP-sX-zHq" secondAttribute="baseline" constant="1" id="VH1-6Q-R1U"/>
+                            <constraint firstItem="eoP-sX-zHq" firstAttribute="leading" secondItem="MEt-9y-llY" secondAttribute="trailing" constant="8" id="aZM-gY-I1T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x3X-Ai-zj3" secondAttribute="trailing" constant="1" id="iRj-e7-trN"/>
+                            <constraint firstItem="8MG-c2-lqy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="kpG-FP-1IB"/>
+                            <constraint firstItem="cn0-j6-Wut" firstAttribute="leading" secondItem="OmC-wj-j8Y" secondAttribute="trailing" constant="8" id="mzg-GL-gUf"/>
+                            <constraint firstItem="cn0-j6-Wut" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pZM-Py-SvJ"/>
+                            <constraint firstItem="0rF-FV-amJ" firstAttribute="baseline" secondItem="8MG-c2-lqy" secondAttribute="baseline" constant="1" id="rRn-at-0gK"/>
+                            <constraint firstItem="eoP-sX-zHq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uHu-ck-vQT"/>
+                            <constraint firstItem="eoP-sX-zHq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="122" id="ysE-oV-l51"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="lineFields" destination="8MG-c2-lqy" collectionClass="NSMutableArray" id="4q1-09-bQn"/>
+                        <outletCollection property="lineFields" destination="x3X-Ai-zj3" collectionClass="NSMutableArray" id="D8O-tN-9Na"/>
+                        <outletCollection property="lineFields" destination="cn0-j6-Wut" collectionClass="NSMutableArray" id="sGq-4U-X7i"/>
+                        <outletCollection property="lineFields" destination="eoP-sX-zHq" collectionClass="NSMutableArray" id="x5x-nQ-H91"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

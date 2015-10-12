@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MotionMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTc-TX-XCt">
+                                <rect key="frame" x="16" y="28" width="568" height="193"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1y-9M-aTG">
+                                <rect key="frame" x="16" y="221" width="568" height="193"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIU-ax-TsA">
+                                <rect key="frame" x="16" y="414" width="568" height="193"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kTc-TX-XCt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Dus-Me-ngr"/>
+                            <constraint firstItem="hIU-ax-TsA" firstAttribute="top" secondItem="W1y-9M-aTG" secondAttribute="bottom" id="JiD-cG-plO"/>
+                            <constraint firstItem="hIU-ax-TsA" firstAttribute="height" secondItem="W1y-9M-aTG" secondAttribute="height" id="Nqw-v5-u76"/>
+                            <constraint firstItem="kTc-TX-XCt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Nx1-Zi-0IJ"/>
+                            <constraint firstItem="hIU-ax-TsA" firstAttribute="height" secondItem="kTc-TX-XCt" secondAttribute="height" id="TIN-0q-auj"/>
+                            <constraint firstItem="kTc-TX-XCt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="U3I-Sh-EhO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hIU-ax-TsA" secondAttribute="bottom" constant="-7" id="UE5-gu-Dzy"/>
+                            <constraint firstItem="W1y-9M-aTG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WAK-0c-q7i"/>
+                            <constraint firstItem="hIU-ax-TsA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cNK-dB-XhG"/>
+                            <constraint firstItem="W1y-9M-aTG" firstAttribute="top" secondItem="kTc-TX-XCt" secondAttribute="bottom" id="iXz-G0-E9r"/>
+                            <constraint firstItem="W1y-9M-aTG" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lrz-BB-ADS"/>
+                            <constraint firstItem="hIU-ax-TsA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="p18-Na-LQH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accelerometerLabel" destination="W1y-9M-aTG" id="68V-Pe-VtD"/>
+                        <outlet property="attitudeLabel" destination="hIU-ax-TsA" id="1oO-Nn-oUe"/>
+                        <outlet property="gryroscopeLabel" destination="kTc-TX-XCt" id="ENj-Ub-RCv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

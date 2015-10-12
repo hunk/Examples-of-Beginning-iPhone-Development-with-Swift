@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizaMe/Base.lproj/LaunchScreen.xib" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+    </header>
+    <body>
+      <trans-unit id="8ie-xW-0ye.text">
+        <source>  Copyright (c) 2015 hunk. All rights reserved.</source>
+        <note>Class = "UILabel"; text = "  Copyright (c) 2015 hunk. All rights reserved."; ObjectID = "8ie-xW-0ye";</note>
+      </trans-unit>
+      <trans-unit id="kId-c2-rCX.text">
+        <source>LocalizaMe</source>
+        <note>Class = "UILabel"; text = "LocalizaMe"; ObjectID = "kId-c2-rCX";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizaMe/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+    </header>
+    <body>
+      <trans-unit id="5CG-Xv-p1a.text">
+        <source>Third</source>
+        <note>Class = "UILabel"; text = "Third"; ObjectID = "5CG-Xv-p1a";</note>
+      </trans-unit>
+      <trans-unit id="PVf-S0-eXK.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "PVf-S0-eXK";</note>
+      </trans-unit>
+      <trans-unit id="Sk7-CY-l3N.text">
+        <source>Fiveth</source>
+        <note>Class = "UILabel"; text = "Fiveth"; ObjectID = "Sk7-CY-l3N";</note>
+      </trans-unit>
+      <trans-unit id="pmY-84-V5Y.text">
+        <source>Fourth</source>
+        <note>Class = "UILabel"; text = "Fourth"; ObjectID = "pmY-84-V5Y";</note>
+      </trans-unit>
+      <trans-unit id="xFG-o1-LC4.text">
+        <source>Second</source>
+        <note>Class = "UILabel"; text = "Second"; ObjectID = "xFG-o1-LC4";</note>
+      </trans-unit>
+      <trans-unit id="xkY-LK-TAl.text">
+        <source>First</source>
+        <note>Class = "UILabel"; text = "First"; ObjectID = "xkY-LK-TAl";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizaMe/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizaMe/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+    </header>
+    <body>
+      <trans-unit id="FLAG_FILE">
+        <source>FLAG_FILE</source>
+        <note>name of the flag</note>
+        <target>flag_usa</target>
+      </trans-unit>
+      <trans-unit id="LABEL_FIVE">
+        <source>LABEL_FIVE</source>
+        <note>the number 5</note>
+        <target>Five</target>
+      </trans-unit>
+      <trans-unit id="LABEL_FOUR">
+        <source>LABEL_FOUR</source>
+        <note>the number 4</note>
+        <target>Four</target>
+      </trans-unit>
+      <trans-unit id="LABEL_ONE">
+        <source>LABEL_ONE</source>
+        <note>the number 1</note>
+        <target>One</target>
+      </trans-unit>
+      <trans-unit id="LABEL_THREE">
+        <source>LABEL_THREE</source>
+        <note>the number 3</note>
+        <target>Three</target>
+      </trans-unit>
+      <trans-unit id="LABEL_TWO">
+        <source>LABEL_TWO</source>
+        <note>the number 2</note>
+        <target>Two</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizaMeTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Camera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CoM-Au-KZf">
+                                <rect key="frame" x="0.0" y="20" width="600" height="484"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VS-jW-kU8">
+                                <rect key="frame" x="0.0" y="550" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7vz-T1-Se0"/>
+                                </constraints>
+                                <state key="normal" title="Pick from Library">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectExistingPictureOrVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agQ-Tn-nQ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpb-3I-dag">
+                                <rect key="frame" x="0.0" y="512" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8Ka-Lz-E3a"/>
+                                </constraints>
+                                <state key="normal" title="New Photo or video">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shootPictureOrVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YSw-0f-3vi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1VS-jW-kU8" firstAttribute="trailing" secondItem="qpb-3I-dag" secondAttribute="trailing" id="6Q0-kB-sjA"/>
+                            <constraint firstItem="qpb-3I-dag" firstAttribute="top" secondItem="CoM-Au-KZf" secondAttribute="bottom" constant="8" id="BtN-Rr-eRU"/>
+                            <constraint firstItem="1VS-jW-kU8" firstAttribute="top" secondItem="qpb-3I-dag" secondAttribute="bottom" constant="8" id="Ja2-gN-V3a"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1VS-jW-kU8" secondAttribute="bottom" constant="20" id="ZH4-em-H81"/>
+                            <constraint firstItem="CoM-Au-KZf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="azR-pk-XId"/>
+                            <constraint firstItem="1VS-jW-kU8" firstAttribute="leading" secondItem="qpb-3I-dag" secondAttribute="leading" id="f8B-pK-VTd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CoM-Au-KZf" secondAttribute="trailing" constant="-16" id="hXF-jV-BEJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qpb-3I-dag" secondAttribute="trailing" constant="-16" id="meR-VR-P24"/>
+                            <constraint firstItem="CoM-Au-KZf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="nfp-my-AU0"/>
+                            <constraint firstItem="qpb-3I-dag" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="wPd-S7-n00"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="CoM-Au-KZf" id="fEi-Sn-sYF"/>
+                        <outlet property="takePictureButton" destination="qpb-3I-dag" id="K59-9I-9JI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
